@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff72ddc2da234e244a8e96eb44e4c03d, type: 3}
+  m_Name: ST2U Settings
+  m_EditorClassIdentifier: 
+  m_PixelsPerUnit: 24
+  m_EdgesPerEllipse: 32
+  m_AnimationFramerate: 20
+  m_DefaultMaterial: {fileID: 0}
+  m_ObjectTypesXml: {fileID: 0}
+  m_ParseXmlError: 
+  m_LayerColors:
+  - {r: 0.2901961, g: 0.41198432, b: 0.78431374, a: 1}
+  - {r: 1, g: 0.3882353, b: 0.2784314, a: 1}
+  - {r: 0.9411765, g: 0.972549, b: 1, a: 1}
+  - {r: 0.5764706, g: 0.4392157, b: 0.85882354, a: 1}
+  - {r: 0.6901961, g: 0.8784314, b: 0.9019608, a: 1}
+  - {r: 0.56078434, g: 0.7372549, b: 0.54509807, a: 1}
+  - {r: 0.9411765, g: 0.9019608, b: 0.54901963, a: 1}
+  - {r: 0.8039216, g: 0.36078432, b: 0.36078432, a: 1}
+  - {r: 0.827451, g: 0.827451, b: 0.827451, a: 1}
+  - {r: 1, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.49803922, a: 1}
+  - {r: 0.93333334, g: 0.9098039, b: 0.6666667, a: 1}
+  - {r: 1, g: 0.89411765, b: 0.76862746, a: 1}
+  - {r: 0.6901961, g: 0.76862746, b: 0.87058824, a: 1}
+  - {r: 1, g: 0.85490197, b: 0.7254902, a: 1}
+  - {r: 1, g: 0.89411765, b: 0.88235295, a: 1}
+  - {r: 0.9607843, g: 1, b: 0.98039216, a: 1}
+  - {r: 0.54509807, g: 0, b: 0, a: 1}
+  - {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+  - {r: 0.85490197, g: 0.4392157, b: 0.8392157, a: 1}
+  - {r: 0.6, g: 0.19607843, b: 0.8, a: 1}
+  - {r: 0.33333334, g: 0.41960785, b: 0.18431373, a: 1}
+  - {r: 0.11764706, g: 0.5647059, b: 1, a: 1}
+  - {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+  - {r: 0.9411765, g: 1, b: 0.9411765, a: 1}
+  - {r: 1, g: 0.7137255, b: 0.75686276, a: 1}
+  - {r: 0.8666667, g: 0.627451, b: 0.8666667, a: 1}
+  - {r: 0.6784314, g: 1, b: 0.18431373, a: 1}
+  - {r: 1, g: 0.98039216, b: 0.98039216, a: 1}
+  - {r: 1, g: 0.64705884, b: 0, a: 1}
+  - {r: 0, g: 1, b: 1, a: 1}
+  - {r: 0.7372549, g: 0.56078434, b: 0.56078434, a: 1}
+  m_CustomObjectTypes: []
+  m_PrefabReplacements:
+  - m_TypeName: Teleporter
+    m_Prefab: {fileID: 1705, guid: d0da02c433248044eae042f625bc9395, type: 3}
+  - m_TypeName: BarrierStart_Horizontal
+    m_Prefab: {fileID: 7023675015973505406, guid: 0b1e8700b9b816845931e74390a8b72d,
+      type: 3}
+  - m_TypeName: BarrierEnd_Horizontal
+    m_Prefab: {fileID: 4458647439475954822, guid: 6af0db8e163d1de449e6e860d0c0917e,
+      type: 3}
+  - m_TypeName: BarrierStart_Vertical
+    m_Prefab: {fileID: 7023675015973505406, guid: 604e70fd6c928a3419188383de053c24,
+      type: 3}
+  - m_TypeName: BarrierEnd_Vertical
+    m_Prefab: {fileID: 4458647439475954822, guid: db41aaf283c9fda41917a58b4cbdd880,
+      type: 3}
+  - m_TypeName: NormalPuzzleOwner
+    m_Prefab: {fileID: 1418110861807696192, guid: 0c2dc3d6d74329a44a2ea4d088e95851,
+      type: 3}
+  - m_TypeName: DataPuzzleOwner
+    m_Prefab: {fileID: 8185843992694402706, guid: 215e7ff73ef1b954686e8ee5514084e9,
+      type: 3}
+  - m_TypeName: SpawnSpot
+    m_Prefab: {fileID: 5715191214105323779, guid: d26968ca174af9b44aa7584f5c2cec66,
+      type: 3}
+  - m_TypeName: Log_Vertical_Short
+    m_Prefab: {fileID: 4532172309737285488, guid: 0ec813092576ad9449de1b8e0b29ff5d,
+      type: 3}
+  - m_TypeName: Log_Vertical_Long
+    m_Prefab: {fileID: 4532172309737285488, guid: bfea8d9bd469f2a4f9ccd9a5086c299c,
+      type: 3}
+  - m_TypeName: Log_Vertical_Long_Tutorial
+    m_Prefab: {fileID: 9109155691566787837, guid: 2e821646f3e981f419e3b9aec20d18cb,
+      type: 3}
+  - m_TypeName: Log_Horizontal_Short
+    m_Prefab: {fileID: 4094163385234345306, guid: dab2da1c74a07d84ea1b5388cfd3b6e0,
+      type: 3}
+  - m_TypeName: Log_Horizontal_Long
+    m_Prefab: {fileID: 2167985553888478250, guid: eb5337b147e91ee42999fc3fc265e67d,
+      type: 3}
+  - m_TypeName: EntryTrigger
+    m_Prefab: {fileID: 7599843131837878234, guid: 1fa7988132201854bacef52d63f1f47b,
+      type: 3}
+  - m_TypeName: ExitTrigger
+    m_Prefab: {fileID: 8174865056740080167, guid: 56aa99a8443e4d349badd5c74d38d4f2,
+      type: 3}
+  - m_TypeName: FTile_Pause
+    m_Prefab: {fileID: 2457240752800764836, guid: 13e91a87997d69c44ad9c9e8d425e5cc,
+      type: 3}
+  - m_TypeName: FTile_Swirl_CW
+    m_Prefab: {fileID: 2457240752800764836, guid: 17fc2ff8640529545a6e25e2eacd40f7,
+      type: 3}
+  - m_TypeName: FTile_Swirl_CCW
+    m_Prefab: {fileID: 631897816992122951, guid: f7f3dca4990ddbc4f8c4d7785438d46e,
+      type: 3}
+  - m_TypeName: FTile_Phase_Up_1
+    m_Prefab: {fileID: 2932483590887708133, guid: dd16b4f7842d9114a868c358bd7299ba,
+      type: 3}
+  - m_TypeName: FTile_Phase_Up_2
+    m_Prefab: {fileID: 2932483590887708133, guid: b6ee2f27550447d44917fadd30de4704,
+      type: 3}
+  - m_TypeName: FTile_Phase_Up_3
+    m_Prefab: {fileID: 2932483590887708133, guid: 2bb9e102ffaeda94a8aff3945cc7ae8a,
+      type: 3}
+  - m_TypeName: FTile_Phase_Up_4
+    m_Prefab: {fileID: 2932483590887708133, guid: 384fc89d63b78a94eb44348d1882a1c0,
+      type: 3}
+  - m_TypeName: FTile_Phase_Up_5
+    m_Prefab: {fileID: 2932483590887708133, guid: d9c9db14881cd7448aac0eed96e1898a,
+      type: 3}
+  - m_TypeName: FTile_Phase_Up_6
+    m_Prefab: {fileID: 2932483590887708133, guid: 12f9c4c12ecb5134da673fab092735bc,
+      type: 3}
+  - m_TypeName: FTile_Phase_Down_1
+    m_Prefab: {fileID: 6681993765620067490, guid: c2d5115749d48b94ba785eb7ee452c40,
+      type: 3}
+  - m_TypeName: FTile_Phase_Down_2
+    m_Prefab: {fileID: 6681993765620067490, guid: db364d6c55c2fcf4cbad6e10b6bbcad5,
+      type: 3}
+  - m_TypeName: FTile_Phase_Down_3
+    m_Prefab: {fileID: 6681993765620067490, guid: 0aa4c8322e2d9ab4c9b6b3eae86e52c7,
+      type: 3}
+  - m_TypeName: FTile_Phase_Down_4
+    m_Prefab: {fileID: 6681993765620067490, guid: 0408d3beef3470b4ab94d2cae289749a,
+      type: 3}
+  - m_TypeName: FTile_Phase_Down_5
+    m_Prefab: {fileID: 6681993765620067490, guid: 632f7f40a1434724c9623e9ba1035afa,
+      type: 3}
+  - m_TypeName: FTile_Phase_Down_6
+    m_Prefab: {fileID: 6681993765620067490, guid: d1315146f5d98d14e9f704991223acf3,
+      type: 3}
+  - m_TypeName: FTile_Phase_Left_1
+    m_Prefab: {fileID: 1769845952103079547, guid: 5ae03f529733a2c4881c2e5a541b2176,
+      type: 3}
+  - m_TypeName: FTile_Phase_Left_2
+    m_Prefab: {fileID: 1769845952103079547, guid: e6c4b0f0cda5e9442b8e439583e05570,
+      type: 3}
+  - m_TypeName: FTile_Phase_Left_3
+    m_Prefab: {fileID: 1769845952103079547, guid: 961f030722d5174439631d47f2136b94,
+      type: 3}
+  - m_TypeName: FTile_Phase_Left_4
+    m_Prefab: {fileID: 1769845952103079547, guid: 0d7d8e18cd26b5149bc093329628b22b,
+      type: 3}
+  - m_TypeName: FTile_Phase_Left_5
+    m_Prefab: {fileID: 1769845952103079547, guid: 2d8fbe13528f68140bc8d330414d6d1d,
+      type: 3}
+  - m_TypeName: FTile_Phase_Left_6
+    m_Prefab: {fileID: 1769845952103079547, guid: 31cefd1f7a91f594095f651eb284ea50,
+      type: 3}
+  - m_TypeName: FTile_Phase_Right_1
+    m_Prefab: {fileID: 7410868585932342459, guid: e39799c83f5baa54cbb0966420867561,
+      type: 3}
+  - m_TypeName: FTile_Phase_Right_2
+    m_Prefab: {fileID: 7410868585932342459, guid: 5d155b3e6d1391042b640aefe5f370c6,
+      type: 3}
+  - m_TypeName: FTile_Phase_Right_3
+    m_Prefab: {fileID: 7410868585932342459, guid: c42247df3e16860459ca566e48effd24,
+      type: 3}
+  - m_TypeName: FTile_Phase_Right_4
+    m_Prefab: {fileID: 7410868585932342459, guid: b5a31129ee06d1c47be49ba0206318fc,
+      type: 3}
+  - m_TypeName: FTile_Phase_Right_5
+    m_Prefab: {fileID: 7410868585932342459, guid: 25568dc6309792941ad3a2f42850d27a,
+      type: 3}
+  - m_TypeName: FTile_Phase_Right_6
+    m_Prefab: {fileID: 7410868585932342459, guid: a9ae027838a20ad42815d17c036c5185,
+      type: 3}
+  - m_TypeName: FTile_TeleA
+    m_Prefab: {fileID: 7409574650926814008, guid: eaa95180057f5c549aac84901baa37ca,
+      type: 3}
+  - m_TypeName: FTile_TeleB
+    m_Prefab: {fileID: 1506109257230428808, guid: 62f41a8cf1598a140b1ea76126787150,
+      type: 3}
+  - m_TypeName: FTile_TeleC
+    m_Prefab: {fileID: 1506109257230428808, guid: f1907e4938ce67b4e990d9e5f96cdc06,
+      type: 3}
+  - m_TypeName: FTile_TeleD
+    m_Prefab: {fileID: 1506109257230428808, guid: 3d42bd01fe97db5468fb6a47489e401f,
+      type: 3}
+  - m_TypeName: DataBlock
+    m_Prefab: {fileID: 47035, guid: 15d5306a663dd4741976b937fe8d9325, type: 3}
+  - m_TypeName: DataBlock_Tutorial
+    m_Prefab: {fileID: 645283139766004687, guid: 352eeab7f0b408549bb9a6db4a6f0171,
+      type: 3}
+  - m_TypeName: DataBlockSlot
+    m_Prefab: {fileID: 1951516977199802858, guid: 78caab9cd1818404c9bc55d42f9663e1,
+      type: 3}
+  - m_TypeName: DataBlockGate_Horizontal
+    m_Prefab: {fileID: 5167521766786481129, guid: 88531e06aad71de4cbef62da407a93eb,
+      type: 3}
+  - m_TypeName: DataBlockGate_Horizontal_Tutorial
+    m_Prefab: {fileID: 6387955998610844889, guid: 07c7b07aa1e093743a4c4b296fc6df54,
+      type: 3}
+  - m_TypeName: DataBlockGate_Vertical
+    m_Prefab: {fileID: 5881748615582231302, guid: 4c9a1db7b3689b04b99e8e2d1373c7c8,
+      type: 3}
+  - m_TypeName: Virus
+    m_Prefab: {fileID: 4051973698021716924, guid: 7afcc96b1b873a84dbcf4606c3a4ed68,
+      type: 3}
+  - m_TypeName: Polyline
+    m_Prefab: {fileID: 1438112995207745875, guid: 2c049f68aa750164cb7d66a65a2aaef8,
+      type: 3}
+  - m_TypeName: Snowpile
+    m_Prefab: {fileID: 6639266915910620528, guid: 9ef0d011da9a27141ba7322ba772eccd,
+      type: 3}
+  - m_TypeName: Snowpatch
+    m_Prefab: {fileID: 8458561410728724528, guid: f6d85486dd21ecf4090839991791e4cb,
+      type: 3}
+  - m_TypeName: VirusArea
+    m_Prefab: {fileID: 123277663353778579, guid: 7636a925cd240e640af5eaba6418ca4b,
+      type: 3}
+  - m_TypeName: CartWithCoal
+    m_Prefab: {fileID: 3737868251196313636, guid: 781eeab0cb1acb14a8c8ff4dfb08c0ac,
+      type: 3}
+  - m_TypeName: Cart
+    m_Prefab: {fileID: 6856374748624402959, guid: 721218095573758489dcefd9db7848e3,
+      type: 3}
+  - m_TypeName: Snowball
+    m_Prefab: {fileID: 7691455762958987616, guid: 299f67bd6234d5b42add0e60d5acdba2,
+      type: 3}
+  - m_TypeName: Snowslab
+    m_Prefab: {fileID: 5682636364655895693, guid: 65999c864488fbb4bbe73b09e279b0f8,
+      type: 3}
+  - m_TypeName: DesBou_1x1
+    m_Prefab: {fileID: 1400196640889967047, guid: 26b79f61bc1be8c4b9ef1316c61cfc50,
+      type: 3}
+  - m_TypeName: DesBou_1x1_Hot
+    m_Prefab: {fileID: 3371227230851376250, guid: 2b3943b64ef72424588c9c9be1f94fa5,
+      type: 3}
+  - m_TypeName: DesBou_1x1_Hot_NoWind
+    m_Prefab: {fileID: 3593450258641277399, guid: d4770b928edd73548bd832a45683f388,
+      type: 3}
+  - m_TypeName: DesBou_1x1_NoWind
+    m_Prefab: {fileID: 7049757464498485920, guid: 5a8694bb2d067a842ae41a9780b69725,
+      type: 3}
+  - m_TypeName: DesBou_2x2
+    m_Prefab: {fileID: 809823124852029120, guid: 5d6715e2050b6654b9bd125c007db866,
+      type: 3}
+  - m_TypeName: DesBou_2x2_Hot
+    m_Prefab: {fileID: 1999037784204632538, guid: 0e3279a76b73ed3489734c3601097303,
+      type: 3}
+  - m_TypeName: DesBou_2x2_Hot_NoWind
+    m_Prefab: {fileID: 940700324924305594, guid: 8a1926ee3fdb61d42a09d523a4dd92ea,
+      type: 3}
+  - m_TypeName: DesBou_2x2_NoWind
+    m_Prefab: {fileID: 4114260052195079357, guid: b4510b06b0c9df14380a44e8ea873d07,
+      type: 3}
+  - m_TypeName: HotTile
+    m_Prefab: {fileID: 3650083511651323180, guid: 31bd81027380deb44b8ce0ee5c0c64c8,
+      type: 3}
+  - m_TypeName: FireCrystal
+    m_Prefab: {fileID: 9215263723165404475, guid: 662c3b36eabe9294eacff8a9ceb7ddc4,
+      type: 3}
+  - m_TypeName: ElevatorPlatform
+    m_Prefab: {fileID: 7207373791275606562, guid: dae8f907dc5df534c8f2446091033af6,
+      type: 3}
+  - m_TypeName: VortexCannon
+    m_Prefab: {fileID: 1180050149444255008, guid: 040de3c11a0810b4ebda4c91fd7c266f,
+      type: 3}
+  - m_TypeName: WaterVent
+    m_Prefab: {fileID: 4615943221582098810, guid: d62d7b0ea1bf70d4fb258d31dd0deae4,
+      type: 3}
+  - m_TypeName: WindVent
+    m_Prefab: {fileID: 8835153361709068513, guid: 875c62323f4ad464dacf856f09e06c98,
+      type: 3}
+  - m_TypeName: DesTerrain
+    m_Prefab: {fileID: 6654611633950642670, guid: ff8145812502b1e4598f3f136ce7e7f5,
+      type: 3}
+  - m_TypeName: Lv3Props_Bubble1
+    m_Prefab: {fileID: 6989934431573238984, guid: 19b2c17712751554382a03b8d3010b96,
+      type: 3}
+  - m_TypeName: Lv3Props_RockStack1
+    m_Prefab: {fileID: 4293338927237842765, guid: e74b501c45fab204e9b8df60fcafce24,
+      type: 3}
+  - m_TypeName: Lv3Props_Spire1
+    m_Prefab: {fileID: 4943690607491720316, guid: da885be1af5509b49a51042dd4c7a219,
+      type: 3}
+  - m_TypeName: Lv3Props_Spire2
+    m_Prefab: {fileID: 203427924022805130, guid: fde33105011772c4ba4ee599a3a76cdc,
+      type: 3}
+  - m_TypeName: GatePillar1
+    m_Prefab: {fileID: 1690398285591828951, guid: 74dad02a4eaf5444db390b9f9de4fe59,
+      type: 3}
